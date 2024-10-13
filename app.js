@@ -8,32 +8,32 @@ function changecolor(bulbcolor){
     switch(bulbcolor){
 
         case 'blue':
-            bulbimg.src = './images/blue-bulb-removebg-preview.png';
+            bulbimg.src = './images/lightbulb.png';
             bulbcontainer.style.backgroundColor = '#4d4dff';
             bulbsubcontainer.style.backgroundColor = '#6666ff';
             bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #6666ff";
             break;
         case 'green': 
-            bulbimg.src =  './images/green-bulb.png';
+            bulbimg.src =  './images/lightbulb.png';
             bulbcontainer.style.backgroundColor = 'green';
             bulbsubcontainer.style.backgroundColor = '#32cd32';
             bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #32cd32";
          
             break;
          case 'pink':
-            bulbimg.src = './images/pink-bulb-removebg-preview.png';
+            bulbimg.src = './images/lightbulb.png';
             bulbcontainer.style.backgroundColor = '#ff33cc';
             bulbsubcontainer.style.backgroundColor = '#ff80df';
             bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #ff80df";
             break;
          case 'red':
-           bulbimg.src = './images/red-bulb-removebg-preview.png';
+           bulbimg.src = './images/lightbulb.png';
            bulbcontainer.style.backgroundColor = 'red';
            bulbsubcontainer.style.backgroundColor = '#ff4d4d';
            bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #ff4d4d";
              break; 
          case 'yellow':
-           bulbimg.src = './images/yellow-bulb-removebg-preview.png';
+           bulbimg.src = './images/lightbulb.png';
            bulbcontainer.style.backgroundColor = 'yellow';
            bulbsubcontainer.style.backgroundColor = '#ffff66';
            bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #ffff66";

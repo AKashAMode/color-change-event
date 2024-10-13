@@ -14,7 +14,7 @@ function changecolor(bulbcolor){
             bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #6666ff";
             break;
         case 'green': 
-            bulbimg.src =  './images/green-bulb-removebg-preview.png';
+            bulbimg.src =  './images/green-bulb.png';
             bulbcontainer.style.backgroundColor = 'green';
             bulbsubcontainer.style.backgroundColor = '#32cd32';
             bulbsubcontainer.style.boxShadow = "0px 0px 100px  20px #32cd32";
